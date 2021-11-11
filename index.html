@@ -5,21 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>SSH LW</title>
+    <title>SSH CONN</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="socket.js"></script>
-    <button id = "connect">Connect</button>
-    <div class="form-container2" id="form-container2">
+    <script src="soc_handler.js"></script>
+    <script src="loadh.js"></script>
+    <p><input type="text" placeholder="username" id="name"></p>
+    <p><input type="password" placeholder="password" id="pass"></p>
+
+
+    <button id = "connect">Установить соединение</button>
+    <div class="former" id="former">
         <form action="" method="post" id="form2">
-            <p>Command</p>
-            <p><input type="text" size="40" placeholder="Command" id="command" autocomplete="off"></p>
-            <p><input type="submit" value="Ок"></p>
+            <p>Your command</p>
+            <p><input type="text" size="50" width="50" placeholder="Command here..." id="command" autocomplete="off"></p>
+            <p><input type="submit" value="Submit"></p>
         </form>
-        <p>Output:</p>
-        <div id="answer">
-    
+        <p>Answer:</p>
+        <div class="answer" id="answer">
+
         </div>
     </div>
    

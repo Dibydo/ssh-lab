@@ -1,3 +1,13 @@
-.form-container2 {
+.former {
     display: none;
+}
+
+body {
+    background-color: lightblue;
+}
+
+p {
+    font-family: "Century Schoolbook L";
+    font-size: 50px;
+    text-align: center;
 }
