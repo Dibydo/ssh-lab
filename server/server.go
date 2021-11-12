@@ -18,8 +18,8 @@ import (
 func Listen() {
 	config := ssh.ServerConfig{
 		PasswordCallback: func(conn ssh.ConnMetadata, password []byte) (*ssh.Permissions, error) {
-			if conn.User() == "ddd" {
-				if string(password) == "06092002" {
+			if conn.User() == "admin" {
+				if string(password) == "admin" {
 					return &ssh.Permissions{}, nil
 				}
 			}

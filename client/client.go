@@ -10,8 +10,8 @@ import (
 )
 
 func main() {
-	username := "ddd"
-	password := "06092002"
+	username := "admin"
+	password := "admin"
 	hostname := "127.0.0.1"
 	port := "3000"
 	config := &ssh.ClientConfig{
