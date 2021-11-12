@@ -11,3 +11,39 @@ p {
     font-size: 50px;
     text-align: center;
 }
+
+div {
+    font-family: "sans-serif";
+    font-size: 50px;
+    text-align: center;
+}
+
+button {
+    font-family: "sans-serif";
+    background-color: #ffffff;
+    color: #FFFFFF;
+    padding: 1000px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    margin:100px
+}
+
+input {
+    font-size: 30px;
+    width: 300px;
+    max-width: 80%;
+    height: 100px;
+    background: gold;
+    box-shadow: 0 -200px 100px -120px crimson inset;
+    border-radius: 30px;
+    border: 5px solid white;
+    animation: background 3s infinite alternate;
+}
+
+@keyframes background {
+    50% {
+        background: skyblue;
+        box-shadow: 0 -200px 100px -100px yellowgreen inset;
+    }
+}
